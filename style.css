@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+
+
+header nav ul li {
+    display: inline;
+    margin-left: 40px;
+    transition: 1s ease;
+}
+
+header nav ul :hover {
+    color: blue;
+}
+
+.sub-navbar {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 12px;
+}
+
+.sub-navbar span {
+    color: blue;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hero h1 {
+    margin-bottom: 30px;
+}
+
+.link {
+    margin-top: 12px;
+}
+
+.link a {
+    margin: 10px;
+}
+
+.second {
+    background-color: black;
+    color: white;
+    height: 70vh;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.second h1 {
+    margin-bottom: 6px;
+}
+
+.second h5 {
+    margin-bottom: 15px;
+}
+
+.second img {
+    width: 800px;
+}
+
+.main {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.box-two {
+    width: 49%;
+    margin: 15px;
+    padding-top: 16px;
+}
+
+.box {
+    margin: 6px;
+    padding-top: 16px;
+}
+
+.main img {
+    width: 700px;
+}
+
+.box h4 {
+    color: red;
+}
+
+.outer {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.box-three {
+    width: 49%;
+    margin: 5px;
+    padding-top: 16px;
+}
+
+.box-four {
+    margin: 15px;
+    padding-top: 16px;
+}
+
+.outer img {
+    width: 700px;
+}
+
+.ipad {
+    display: flex;
+}
+
+.ipad img {
+    width: 750px;
+}
+
+.ipad-text {
+    padding-top: 12%;
+    text-align: center;
+    width: 50%;
+}
+
+.first {
+    width: 50%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 12px;
+    transition-duration: 1s ease;
+}
+
+.btn :hover{
+    background-color: blue;
+    color: white;
+}
+
+.btn button {
+    border: 2px solid;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 14px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    margin-top: 15px;
+}
+
+.footer-text p {
+    margin-left: 90px;
+}
+
+.footer-nav {
+    padding: 14px;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-left: 100px;
+}
